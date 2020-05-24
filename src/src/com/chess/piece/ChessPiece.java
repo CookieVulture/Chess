@@ -22,5 +22,7 @@ public abstract class ChessPiece {
         this.pieceColor = pieceColor;
     }
 
+    public colorGroup getPieceColor(){return this.pieceColor;}
+
     public abstract List<Move> legalMoves(final Board board);
 }
